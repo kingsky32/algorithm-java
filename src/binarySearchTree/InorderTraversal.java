@@ -4,6 +4,13 @@ import java.util.*;
 public class InorderTraversal {
 	
 	List<Integer> ret;
+	
+	public static class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int i) { val = i; }
+	}
 
 	public static void main(String[] args) {
 		TreeNode root = new TreeNode(1);
@@ -65,12 +72,5 @@ public class InorderTraversal {
 		postorderTraverse(self.right);
 		ret.add(self.val);
 	}
+	
 }
-
-class TreeNode {
-	int val;
-	TreeNode left;
-	TreeNode right;
-	TreeNode(int i) { val = i; }
-}
-
