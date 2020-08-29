@@ -31,7 +31,6 @@ public class LevelOrderTraversal {
 	}
  
 	public static TreeNode createBinaryTree() {
- 
 		TreeNode rootNode = new TreeNode(40);
 		TreeNode node20 = new TreeNode(20);
 		TreeNode node10 = new TreeNode(10);
