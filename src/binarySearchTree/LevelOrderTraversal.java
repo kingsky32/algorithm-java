@@ -25,6 +25,7 @@ public class LevelOrderTraversal {
 				queue.add(tempNode.right);
 		}
 	}
+	
 	public static void main(String[] args) {
 		TreeNode rootNode = createBinaryTree();
 		levelOrderTraversal(rootNode);
