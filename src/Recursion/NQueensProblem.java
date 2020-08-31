@@ -43,6 +43,7 @@ public class NQueensProblem {
 	
 	public static void main(String [] args) {
 		queens(0);
+		
 		for (int i = 0; i <= N - 1; i ++) {
 			System.out.println(Arrays.toString(result[i]));
 		}
